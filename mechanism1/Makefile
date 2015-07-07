@@ -6,4 +6,4 @@ transcendentals.so: setup.py transcendentals.pyx
 	python setup.py build_ext --inplace
 
 clean:
-	-rm -r a.out a.out.dSYM build transcendentals.c transcendentals.so
+	-rm -r a.out a.out.dSYM build transcendentals.[ch] transcendentals.so
