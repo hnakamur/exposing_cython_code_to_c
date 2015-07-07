@@ -1,0 +1,6 @@
+/a.out*
+/build
+/venv
+transcendentals.c
+transcendentals.h
+transcendentals.so
